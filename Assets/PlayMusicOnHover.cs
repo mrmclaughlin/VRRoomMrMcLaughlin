@@ -17,7 +17,7 @@ public class PlayMusicOnHover : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Check if the object that entered the trigger is tagged as "Hand"
-        if (other.tag == "Hand")
+        if (other.tag == "MusicOn")
         {
             // Play the audio clip
             audioSource.Play();
@@ -28,7 +28,7 @@ public class PlayMusicOnHover : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         // Check if the object that exited the trigger is tagged as "Hand"
-        if (other.tag == "Hand")
+        if (other.tag == "MusicOn")
         {
             // Stop the audio clip
             audioSource.Stop();
