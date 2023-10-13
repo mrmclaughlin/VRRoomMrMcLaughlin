@@ -13,9 +13,7 @@ public class NetworkPlayer : MonoBehaviour
 	public Transform leftHand;
 	public Transform rightHand;
 	private PhotonView photonView;
-	private GameObject spawnedSnowballPilePrefab;
-	public GameObject snowballPrefab;  // Drag your snowball prefab here
-    public int numberOfSnowballs = 50; // Number of snowballs in the pile
+	 
     public float areaRadius = 10f;      // Radius of the pile
 	public int rows = 5;
     public int columns = 5;
@@ -56,9 +54,7 @@ public class NetworkPlayer : MonoBehaviour
             Debug.LogWarning("No rghtHandRig found in the scene.");
         }
 		
-		spawnedSnowballPilePrefab = PhotonNetwork.Instantiate("SnowballPile",transform.position,transform.rotation);
-		spawnedSnowballPilePrefab.transform.position += offset;
-		
+		 
 	Color randomColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
        
 	   GameObject NetworkPlayerRig = GameObject.Find("NetworkPlayer"+photonView.ViewID); // Replace with your XR origin's name
@@ -78,13 +74,9 @@ public class NetworkPlayer : MonoBehaviour
                     );
 					position += offset;
 	 		 
-			GameObject aSnowball =Instantiate(snowballPrefab, position + transform.position, Quaternion.identity);
-			aSnowball.name = "snowball" + photonView.ViewID; 
-			Renderer renderer = aSnowball.GetComponent<Renderer>();
-            aSnowball.transform.SetParent(spawnedSnowballPilePrefab.transform);
-			if (renderer != null)
+			if (GetComponent<Renderer>() != null)
             {
-                renderer.material.color = randomColor;
+                GetComponent<Renderer>().material.color = randomColor;
             }
 			
                 }
@@ -125,20 +117,16 @@ public class NetworkPlayer : MonoBehaviour
 			head.gameObject.SetActive(false);
 			MapPosition(head, headRig);
 			MapPosition(leftHand,leftHandRig);
-			//MapPosition(rightHand,rightHandRig);
+			MapPosition(rightHand,rightHandRig);
 			GameObject NetworkPlayer = photonView.gameObject;
 			NetworkPlayer.name = "NetworkPlayer" + photonView.ViewID;
-			spawnedSnowballPilePrefab.name ="SnowBallPile" + photonView.ViewID;
-			spawnedSnowballPilePrefab.transform.SetParent(NetworkPlayer.transform);
-    
+			 
 		}
         
     }
 	void MapPosition(Transform target,Transform rigTransform)
 	{
-		//InputDevices.GetDeviceAtXRNode(node).TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 position);
-		//InputDevices.GetDeviceAtXRNode(node).TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rotation);
-		target.position = rigTransform.position;
+		 target.position = rigTransform.position;
 		target.rotation = rigTransform.rotation;
 	}
 }
