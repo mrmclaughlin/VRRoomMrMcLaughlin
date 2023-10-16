@@ -47,4 +47,16 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 			base.OnPlayerEnteredRoom(newPlayer);
 	}
 	
+	public void Disconnect()
+    {
+        PhotonNetwork.Disconnect();
+    }
+
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        Debug.Log("Disconnected from Photon. Cause: " + cause.ToString());
+
+        // Handle what happens after disconnection
+    }
+	
 }
