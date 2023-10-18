@@ -1,0 +1,29 @@
+Winter Wood 1.2
+
+Support: 
+- Built_in: from 2021.2 to newer
+- HDRP and URP: from 2020.2 to newer
+------------------------------------------------------------------------------------------------------
+Installation:
+==If you use HDRP overwrite with "WW_HDRP". If trees diffusion can't wrong, open any leaf material and click FIX on "GreenBugDiffProf". 
+
+==If you use URP overwrite with "WW_URP".
+
+==If you use Build_in overwrite with "WW_Built_in".
+
+!!!ATTENTION!!!: You must have Shader Graph installed. (Preferably Build_In)
+How to do it? Click "Window-Package Manager-Packages:In Unity Registry". Find Shader Graph, and install this.
+
+Scenes are located in folders appropriate to the render type.
+------
+For a snowdrift fall job look at Fly.prefab (Only Player tag)
+It works with any physical body, be it a character or object.(Collider+Rigidbody preferably)
+
+ 
+--------------------------------------------------------------------------
+
+
+Use reflection probes for best results with shine-smooth.
+
+Questions to: greenbuggames@gmail.com or Discord: grow_to_light
+
