@@ -37,7 +37,7 @@ void FixedUpdate()
 	
 	void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name.Contains("Target") || collision.gameObject.name.Contains("Tree")|| collision.game || Object.name.Contains("Spruce")collision.game||Object.name.Contains("Pine"))
+        if (collision.gameObject.name.Contains("Target") || collision.gameObject.name.Contains("Tree") || collision.gameObject.name.Contains("Spruce")|| collision.gameObject.name.Contains("Pine"))
         {
             // Instantiate the particle effect at the target's location
             Instantiate(particleEffectPrefab, transform.position, Quaternion.identity);
@@ -46,7 +46,7 @@ void FixedUpdate()
             Destroy(gameObject);
         }
 		
-
+	}
 
 
 
