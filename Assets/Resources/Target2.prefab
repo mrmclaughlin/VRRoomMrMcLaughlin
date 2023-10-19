@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2012200157600290222}
   m_Layer: 0
   m_Name: Target2
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -242,6 +242,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  launchSpeed: 200
 --- !u!114 &568048251777383744
 MonoBehaviour:
   m_ObjectHideFlags: 0

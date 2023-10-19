@@ -191,6 +191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RTree2_small_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 3263654884483527858, guid: 313e7d6b3f6663f4ba2cd41b82c81ac2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 313e7d6b3f6663f4ba2cd41b82c81ac2, type: 3}
 --- !u!4 &1236186060278553837 stripped
@@ -199,6 +204,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 735878563441171020}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2845300200072261374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3263654884483527858, guid: 313e7d6b3f6663f4ba2cd41b82c81ac2,
+    type: 3}
+  m_PrefabInstance: {fileID: 735878563441171020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6617696868089655886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845300200072261374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5250126913322681502, guid: 13d6443440bf8dc48b493680f8ca6c99, type: 3}
+--- !u!54 &3256631370684396240
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845300200072261374}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1618119139601126807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,6 +251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pine2_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 559733661894142891, guid: 4ac1a06aa9f78604c9ba6c11cfdef9f4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 3575799916612655544, guid: 4ac1a06aa9f78604c9ba6c11cfdef9f4,
         type: 3}
@@ -268,6 +314,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac1a06aa9f78604c9ba6c11cfdef9f4, type: 3}
+--- !u!1 &1274558294381887036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 559733661894142891, guid: 4ac1a06aa9f78604c9ba6c11cfdef9f4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1618119139601126807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4753109226415366191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274558294381887036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4539220785847962901, guid: 4f75bdcc093c6784190b36d25c29f54c, type: 3}
+--- !u!54 &8383854790895242880
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274558294381887036}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &2876531174639799343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3575799916612655544, guid: 4ac1a06aa9f78604c9ba6c11cfdef9f4,
@@ -341,6 +423,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spruce_bush1_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 3250629267744166965, guid: 2d4f7531a47b9434a9af6fe4f35ece56,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4f7531a47b9434a9af6fe4f35ece56, type: 3}
 --- !u!4 &265915913329380652 stripped
@@ -349,6 +436,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1799028472126434058}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3885446243161866047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3250629267744166965, guid: 2d4f7531a47b9434a9af6fe4f35ece56,
+    type: 3}
+  m_PrefabInstance: {fileID: 1799028472126434058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6666022981417032553
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3885446243161866047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8591153749168794595, guid: 056c325a1e069024884b90168a04432d, type: 3}
+--- !u!54 &3521650085206448168
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3885446243161866047}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &2476663037270106333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,6 +483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spruce5_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942858553914887960, guid: 8ccc0510395eb5744bce8956a4bca11f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 3219284659183287563, guid: 8ccc0510395eb5744bce8956a4bca11f,
         type: 3}
@@ -424,6 +552,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2476663037270106333}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4082711415448547269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1942858553914887960, guid: 8ccc0510395eb5744bce8956a4bca11f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2476663037270106333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5083779136684352522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082711415448547269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6336882794161772245, guid: ccdd7152bc2174b409d04ecb04980489, type: 3}
+--- !u!54 &2428762995260482487
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082711415448547269}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &3682452836999669935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -491,8 +655,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spruce3_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2527963868208166923, guid: 70f6098c30ba3e8459ed53ff6f4058ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70f6098c30ba3e8459ed53ff6f4058ba, type: 3}
+--- !u!1 &1157305149336539300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2527963868208166923, guid: 70f6098c30ba3e8459ed53ff6f4058ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 3682452836999669935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8756960233065712480
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157305149336539300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &8570149940936152246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157305149336539300}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &2762055939664749239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1535296904576305688, guid: 70f6098c30ba3e8459ed53ff6f4058ba,
@@ -510,6 +715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spruce_bush2_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610018933987448287, guid: babec0b64979ef5429e6cb678633a2ed,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 8899556686816045004, guid: babec0b64979ef5429e6cb678633a2ed,
         type: 3}
@@ -568,6 +778,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: babec0b64979ef5429e6cb678633a2ed, type: 3}
+--- !u!1 &344266670779162400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5610018933987448287, guid: babec0b64979ef5429e6cb678633a2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 5268612097256049407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &215889204303520908
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344266670779162400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5056234446921148250, guid: c3715c8a69c52fb4ea1e672fd69d623f, type: 3}
+--- !u!54 &4614942250272288905
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344266670779162400}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &3646874934788664627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8899556686816045004, guid: babec0b64979ef5429e6cb678633a2ed,
@@ -641,8 +887,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spruce1_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 9005033343712909667, guid: 054cf968f3ef37c479432f8746b7a722,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 054cf968f3ef37c479432f8746b7a722, type: 3}
+--- !u!1 &1944402366934722670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9005033343712909667, guid: 054cf968f3ef37c479432f8746b7a722,
+    type: 3}
+  m_PrefabInstance: {fileID: 7350905637810532621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7490228351689825586
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944402366934722670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &3769558929381151351
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944402366934722670}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &3215779584230578813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378168516582615920, guid: 054cf968f3ef37c479432f8746b7a722,
@@ -716,8 +1003,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spruce_bush3_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2419469026802089080, guid: 38f233ec8d657f64aae43a79c396fc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f233ec8d657f64aae43a79c396fc66, type: 3}
+--- !u!1 &5112847193410432521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2419469026802089080, guid: 38f233ec8d657f64aae43a79c396fc66,
+    type: 3}
+  m_PrefabInstance: {fileID: 7451158494495756913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3086089868338155714
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112847193410432521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6887273339308241529, guid: 0a5afd2adff4ce34f98ae00186400b81, type: 3}
+--- !u!54 &5021448672130888051
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112847193410432521}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &8119746818746752026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1713891899549404779, guid: 38f233ec8d657f64aae43a79c396fc66,
@@ -735,6 +1063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RTree1_small_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018154541670753451, guid: a9e48cbc5d633f641a2c2997487b55be,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 8358479899834095288, guid: a9e48cbc5d633f641a2c2997487b55be,
         type: 3}
@@ -799,6 +1132,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7930272190096743589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3146305839441934350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5018154541670753451, guid: a9e48cbc5d633f641a2c2997487b55be,
+    type: 3}
+  m_PrefabInstance: {fileID: 7930272190096743589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1746437660257813852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146305839441934350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1859892658198680837, guid: 64ee680eb13f77b4dbbaeccefbcb8f6a, type: 3}
+--- !u!54 &8852935231125335501
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146305839441934350}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &8110865275860563029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -810,6 +1179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spruce4_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 646159957408732939, guid: 06870e367359aec4b84b1f53568bacae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 4516203149425059096, guid: 06870e367359aec4b84b1f53568bacae,
         type: 3}
@@ -874,3 +1248,39 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8110865275860563029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8680701407408808798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 646159957408732939, guid: 06870e367359aec4b84b1f53568bacae,
+    type: 3}
+  m_PrefabInstance: {fileID: 8110865275860563029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8530731818033542751
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8680701407408808798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &5390765770686394303
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8680701407408808798}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
