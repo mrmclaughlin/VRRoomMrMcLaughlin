@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class MovingTarget : MonoBehaviour
 {
+	public GameObject particleEffectPrefab;  // Drag your Particle Effect Prefab here in the Inspector
+
     public float speed = 5.0f;
     public Vector3 boxSize = new Vector3(10, 0, 10); // Size of the box (Width, Height, Depth)
     private Vector3 initialPosition;
@@ -40,13 +42,17 @@ private AudioSource audioSource;
 	void OnCollisionEnter(Collision collision)
     {
         // Check if the colliding object is tagged as 'Sphere'
-        if (collision.gameObject.tag == "SnowBall")
+if (collision.gameObject.name.Contains("SnowBall"))
         {
-            // Play sound
-            if (audioSource != null && audioSource.clip != null)
-            {
-                audioSource.Play();
-            }
-        }
+            // Instantiate the particle effect at the target's location
+            Instantiate(particleEffectPrefab, transform.position, Quaternion.identity);
+   //audioSource.Play();
+             
+            // Destroy the target GameObject
+            Destroy(gameObject);
+        }       
+
+
+	    
     }
 }

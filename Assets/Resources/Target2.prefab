@@ -51,6 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8888b9888e89e4f40a61dd18bef65506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleEffectPrefab: {fileID: 1289825239421098342, guid: fa085453e9ad41a408ef991a11c44a7a,
+    type: 3}
   speed: 1
   boxSize: {x: 10, y: 0, z: 10}
 --- !u!114 &4201886047584993529
